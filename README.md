@@ -1,0 +1,3 @@
+We created an LSTM-based time series forecasting model to predict airline passenger numbers using historical monthly data. After importing and preprocessing the data with MinMaxScaler, we converted it into sequences for supervised learning. These sequences were reshaped and fed into an LSTM neural network with one LSTM layer and a Dense output layer.
+
+The model was trained on historical data and used to forecast passenger counts for the next 12 months. We evaluated its performance using regression metrics such as MSE, RMSE, MAE, and R², interpreting R² as a proxy for accuracy since traditional accuracy does not apply to regression.
